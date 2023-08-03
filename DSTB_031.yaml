@@ -77,5 +77,45 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
+- name: Danu31_LiveNusa31a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 686cda5b-9f7c-4580-917a-0a6af5a49308
+  udp: true
+  sni: nusa1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa1.myserver-prem.cloud
+- name: Danu31_LiveNusa31b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: 686cda5b-9f7c-4580-917a-0a6af5a49308
+  udp: true
+  sni: nusa1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa1.myserver-prem.cloud
+- name: Danu31_LiveNusa31c
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 686cda5b-9f7c-4580-917a-0a6af5a49308
+  udp: true
+  sni: nusa1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa1.myserver-prem.cloud
+
 
       
