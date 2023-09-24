@@ -1,4 +1,17 @@
 proxies:
+- name: ErwinHPINusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: babed337-3dac-4d42-a877-bff33ea6f037
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: ErwinHPI_LiveDO_1
   type: trojan
   server: circles.asia
